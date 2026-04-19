@@ -1,5 +1,12 @@
 let playlist:string[] =["football","pubg","lodo"];
 
-playlist.push('fd')
+playlist.push(09)
 
-console.log(playlist);
+// console.log(playlist);
+
+
+const user :{
+    firstName:string;
+    lastName:string;
+    ismarried:boolean;
+}
