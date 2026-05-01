@@ -27,3 +27,13 @@ const user ={
 const addBalance1 =user.addBalance(10000000)
 
 console.log(addBalance1);
+
+
+
+const arr : number [] = [ 1,3,4,5,3];
+
+const squrArray = arr.map((elem:number):number=>
+elem*elem
+)
+
+console.log(squrArray)
