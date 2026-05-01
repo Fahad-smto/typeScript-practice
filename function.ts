@@ -14,3 +14,16 @@ return (num1+num2)
 const result1 = addArrow(4,4);
 
 console.log(result1);
+
+
+const user ={
+    name : 'fahad',
+    balance:0,
+    addBalance(value:number):number{
+        const totalBalance = this.balance+ value;
+        return totalBalance;
+    }
+}
+const addBalance1 =user.addBalance(10000000)
+
+console.log(addBalance1);
